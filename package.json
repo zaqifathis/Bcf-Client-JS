@@ -1,13 +1,23 @@
 {
-  "name": "bcf-client-js",
-  "version": "0.0.1",
-  "description": "BCF Client library for Node.js",
+  "name": "@openfabtwin/bcf-client",
+  "version": "0.1.0",
+  "description": "JavaScript client library for BCF REST API 3.0",
   "type": "module",
   "main": "src/BcfClient.js",
-  "scripts": {
-    "start": "node main.js"
+  "exports": {
+    ".": "./src/BcfClient.js",
+    "./auth": "./src/auth/FoundationClient.js",
+    "./exception": "./src/BcfException.js"
   },
+  "files": [
+    "src/"
+  ],
+  "keywords": ["bcf", "bim", "ifc", "buildingsmart", "openapi"],
+  "license": "MIT",
   "dependencies": {
     "open": "^10.1.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
