@@ -1,6 +1,6 @@
 {
-  "name": "@openfabtwin/bcf-client",
-  "version": "0.1.0",
+  "name": "@openfabtwin-bim/bcf-client",
+  "version": "0.1.1",
   "description": "JavaScript client library for BCF REST API 3.0",
   "type": "module",
   "main": "src/BcfClient.js",
