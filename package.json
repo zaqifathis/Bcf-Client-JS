@@ -1,0 +1,13 @@
+{
+  "name": "bcf-client-js",
+  "version": "0.0.1",
+  "description": "BCF Client library for Node.js",
+  "type": "module",
+  "main": "src/BcfClient.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "open": "^10.1.0"
+  }
+}
