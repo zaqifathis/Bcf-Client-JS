@@ -16,7 +16,7 @@ Implements the full [buildingSMART BCF API spec](https://github.com/buildingSMAR
 ## Installation
 
 ```bash
-npm install @openfabtwin-bim/bcf-client
+npm install @de-openfabtwin/bcf-client
 ```
 
 ---
